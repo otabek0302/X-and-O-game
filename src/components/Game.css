@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: #222222;
+}
+.start__btn{
+    padding: 20px 40px;
+    color: #ffffff;
+    background-color: darkblue;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.start__btn:hover{
+    background-color: blue;
+}
+p{
+    color: #ffffff;
+    font-size: 28px;
+    margin-top: 20px;
+}
